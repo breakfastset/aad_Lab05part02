@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/dynamicFragments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onDynamicClick"
+        android:text="Dynamic Fragments"/>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.lab05part02.BlankFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.lab05part02.BlankFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

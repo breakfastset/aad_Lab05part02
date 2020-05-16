@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab05part02</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fragment number 1</string>
+    <string name="hello_blank_fragment2">Fragment number 2</string>
+</resources>
